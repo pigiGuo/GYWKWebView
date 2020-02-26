@@ -16,6 +16,12 @@
 		E26A34A023FE8EB800AD28A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A349F23FE8EB800AD28A4 /* main.m */; };
 		E26A34AA23FE8EB900AD28A4 /* GYWKWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A34A923FE8EB900AD28A4 /* GYWKWebViewTests.m */; };
 		E26A34B523FE8EB900AD28A4 /* GYWKWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A34B423FE8EB900AD28A4 /* GYWKWebViewUITests.m */; };
+		E2A7B8CF2403FB24004612DA /* backbutton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2A7B8C92403FB24004612DA /* backbutton@3x.png */; };
+		E2A7B8D02403FB24004612DA /* backbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2A7B8CA2403FB24004612DA /* backbutton@2x.png */; };
+		E2A7B8D12403FB24004612DA /* webRefreshButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2A7B8CB2403FB24004612DA /* webRefreshButton@2x.png */; };
+		E2A7B8D22403FB24004612DA /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = E2A7B8CC2403FB24004612DA /* girl.png */; };
+		E2A7B8D32403FB24004612DA /* webRefreshButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2A7B8CD2403FB24004612DA /* webRefreshButton@3x.png */; };
+		E2A7B8D42403FB24004612DA /* JStoOC.html in Resources */ = {isa = PBXBuildFile; fileRef = E2A7B8CE2403FB24004612DA /* JStoOC.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +60,13 @@
 		E26A34B023FE8EB900AD28A4 /* GYWKWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GYWKWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26A34B423FE8EB900AD28A4 /* GYWKWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYWKWebViewUITests.m; sourceTree = "<group>"; };
 		E26A34B623FE8EB900AD28A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2A7B8C72403F58C004612DA /* GYWKWebViewConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYWKWebViewConstant.h; sourceTree = "<group>"; };
+		E2A7B8C92403FB24004612DA /* backbutton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backbutton@3x.png"; sourceTree = "<group>"; };
+		E2A7B8CA2403FB24004612DA /* backbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backbutton@2x.png"; sourceTree = "<group>"; };
+		E2A7B8CB2403FB24004612DA /* webRefreshButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "webRefreshButton@2x.png"; sourceTree = "<group>"; };
+		E2A7B8CC2403FB24004612DA /* girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl.png; sourceTree = "<group>"; };
+		E2A7B8CD2403FB24004612DA /* webRefreshButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "webRefreshButton@3x.png"; sourceTree = "<group>"; };
+		E2A7B8CE2403FB24004612DA /* JStoOC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JStoOC.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +123,8 @@
 				E26A349123FE8EB600AD28A4 /* SceneDelegate.m */,
 				E26A349323FE8EB600AD28A4 /* ViewController.h */,
 				E26A349423FE8EB600AD28A4 /* ViewController.m */,
+				E2A7B8C72403F58C004612DA /* GYWKWebViewConstant.h */,
+				E2A7B8C82403FB24004612DA /* Resource */,
 				E26A349623FE8EB600AD28A4 /* Main.storyboard */,
 				E26A349923FE8EB800AD28A4 /* Assets.xcassets */,
 				E26A349B23FE8EB800AD28A4 /* LaunchScreen.storyboard */,
@@ -135,6 +150,19 @@
 				E26A34B623FE8EB900AD28A4 /* Info.plist */,
 			);
 			path = GYWKWebViewUITests;
+			sourceTree = "<group>";
+		};
+		E2A7B8C82403FB24004612DA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E2A7B8C92403FB24004612DA /* backbutton@3x.png */,
+				E2A7B8CA2403FB24004612DA /* backbutton@2x.png */,
+				E2A7B8CB2403FB24004612DA /* webRefreshButton@2x.png */,
+				E2A7B8CC2403FB24004612DA /* girl.png */,
+				E2A7B8CD2403FB24004612DA /* webRefreshButton@3x.png */,
+				E2A7B8CE2403FB24004612DA /* JStoOC.html */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,9 +268,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2A7B8D42403FB24004612DA /* JStoOC.html in Resources */,
+				E2A7B8CF2403FB24004612DA /* backbutton@3x.png in Resources */,
+				E2A7B8D02403FB24004612DA /* backbutton@2x.png in Resources */,
 				E26A349D23FE8EB800AD28A4 /* LaunchScreen.storyboard in Resources */,
+				E2A7B8D22403FB24004612DA /* girl.png in Resources */,
 				E26A349A23FE8EB800AD28A4 /* Assets.xcassets in Resources */,
 				E26A349823FE8EB600AD28A4 /* Main.storyboard in Resources */,
+				E2A7B8D32403FB24004612DA /* webRefreshButton@3x.png in Resources */,
+				E2A7B8D12403FB24004612DA /* webRefreshButton@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
